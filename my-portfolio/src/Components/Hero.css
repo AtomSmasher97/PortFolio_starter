@@ -1,0 +1,30 @@
+/* Hero.css */
+.hero {
+    background: url('https://via.placeholder.com/1500x800') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero-content p {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+}
+
+.hero-content .btn {
+    padding: 10px 20px;
+    background-color: #00aaff;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.hero-content .btn:hover {
+    background-color: #0088cc;
+}
