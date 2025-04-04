@@ -1,146 +1,41 @@
-@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
-
-:root {
-  --bg-color: #2b2b2b;
-  --fg-color: rgba(255, 255, 255, 0.9);
-  --bd-color: rgba(255, 255, 255, 0.2);
-  
-  --default-bg: 
-  linear-gradient(322deg, #ba4aff, rgba(186, 74, 255, 0) 70%),
-  linear-gradient(178deg, #008aff, rgba(0, 138, 255, 0) 70%), 
-  linear-gradient(24deg, #00ffc6, rgba(0, 255, 198, 0) 35%),
-  linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1));
-}
-
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&family=Teko:wght@300..700&family=Ysabeau+SC:wght@1..1000&display=swap');
 .header {
-  font-family: "Teko", sans-serif;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem 2rem;
-  background: rgb(0, 0, 0);
-  border-radius: 10px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.38);
-  backdrop-filter: blur(4.7px);
-  -webkit-backdrop-filter: blur(4.7px);
-  border: 1px solid rgba(255, 255, 255, 0.65);
-  color: #fff;
+    font-family: "Teko", sans-serif;
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    backdrop-filter: blur(4.7px);
+    -webkit-backdrop-filter: blur(4.7px);
+    border: 1px solid rgba(255, 255, 255, 0.65);
+    color: #000;
+    -webkit-font-smoothing: antialiased;
 }
 
 .header .logo h1 {
-  font-size: 2rem;
-  margin: 0;
-  background: linear-gradient(to right, #747ac8 0%, #fbff00 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+    font-size: 1.5rem;
+    color: black;
 }
 
 .header nav ul {
-  list-style: none;
-  display: flex; /* Default horizontal layout for larger screens */
-  margin: 0;
-  padding: 0;
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
 }
 
 .header nav ul li {
-  margin: 0 1rem;
-  position: relative;
+    margin: 0 1rem;
+    font-weight: 200;
 }
 
 .header nav ul li a {
-  text-decoration: none;
-  font-size: 1rem;
-  color: #fff;
-  position: relative;
-  overflow: hidden; /* To hide the wavy effect outside the link */
-  padding: 0.5rem 1rem;
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: #393939;
 }
 
-.header nav ul li a::before {
-  content: '';
-  position: absolute;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  background: var(--default-bg);
-  z-index: -1;
-  transition: transform 0.7s ease-out;
-  transform: scaleX(0);
-  transform-origin: bottom right;
-}
-
-.header nav ul li a:hover::before {
-  transform: scaleX(1);
-  transform-origin: bottom left;
-}
-
-/* Mobile Menu */
-.menu-toggle {
-  display: none;
-  flex-direction: column;
-  cursor: pointer;
-}
-
-.menu-toggle .bar {
-  background-color: #fff;
-  height: 3px;
-  width: 25px;
-  margin: 3px 0;
-  transition: all 0.3s ease;
-}
-
-/* Mobile Menu */
-.nav-links {
-  display: flex;
-  flex-direction: row;
-  transition: all 0.3s ease;
-}
-
-.nav-links.active {
-  display: flex;
-  flex-direction: column; /* Stack menu items vertically on mobile */
-}
-
-@media (max-width: 768px) {
-  /* Initially hide the menu on mobile */
-  .nav-links {
-    display: none;
-    flex-direction: column;
-    position: absolute;
-    top: 60px;
-    right: 20px;
-    background-color: rgba(0, 0, 0, 0.9);
-    border-radius: 10px;
-    padding: 1rem;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
-  }
-
-  .nav-links.active {
-    display: flex; /* Show the menu when active */
-  }
-
-  .menu-toggle {
-    display: flex; /* Show hamburger icon on mobile */
-  }
-
-  .nav-links li {
-    margin: 10px 0;
-  }
-}
-
-@media (min-width: 769px) {
-  /* Ensure menu is horizontal on large screens */
-  .nav-links {
-    display: flex;
-    flex-direction: row;
-    opacity: 1;
-    position: initial; /* Reset position for large screens */
-    box-shadow: none; /* Remove box-shadow for large screens */
-  }
-
-  /* Ensure the hamburger menu is hidden on larger screens */
-  .menu-toggle {
-    display: none;
-  }
+.header nav ul li a.wave-link:hover {
+    color: #000000;
 }
