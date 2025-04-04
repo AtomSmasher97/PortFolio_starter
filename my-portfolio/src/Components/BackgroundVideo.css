@@ -1,0 +1,36 @@
+#background-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -2;
+}
+
+.content {
+    position: relative;
+    z-index: 1;
+    color: white;  
+}
+
+.blur-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    backdrop-filter: blur(2px); /* Adjust as needed */
+    z-index: -1;
+}
+.grain-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    pointer-events: none;
+    background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
+    opacity: 0.15; /* subtle grain */
+    z-index: -1;
+}

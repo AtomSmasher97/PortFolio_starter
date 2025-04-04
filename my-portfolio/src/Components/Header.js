@@ -1,6 +1,5 @@
 import React from "react";
-import './Header.css'; 
-import './wavyLink.css'; 
+import './Header.css';  
 
 
 const Header = () => {

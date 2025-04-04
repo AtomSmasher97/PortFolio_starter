@@ -1,12 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
 import Header from './Components/Header';
 import Hero from './Components/Hero';
+import BackgroundVideo from './Components/BackgroundVideo';
+import PatternLinks from './Components/PatternLinks';
 
 function App() {
   return (
     <div className="App">
+      <BackgroundVideo/>
       <Header/>
+      <PatternLinks/>
       <Hero/>
     </div>
   );
