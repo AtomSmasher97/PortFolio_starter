@@ -33,9 +33,9 @@
 .header nav ul li a {
     text-decoration: none;
     font-size: 1.8rem;
-    color: #ffffff;
+    color: #ffffffc8;
 }
 
 .header nav ul li a.wave-link:hover {
-    color: #000000;
+    color: #ffffff;
 }

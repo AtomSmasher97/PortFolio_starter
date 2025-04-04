@@ -5,20 +5,20 @@ const PatternLinks = () => {
   return (
     <div className="gallery">
       <img
-        src="https://picsum.photos/id/1029/500/500"
-        alt="a big park inside a modern city"
+        src="./resume.jpg"
+        alt="Download my resume"
       />
       <img
-        src="https://picsum.photos/id/1047/500/500"
-        alt="a small street between building"
+        src="Projects.jpg"
+        alt="See my Projects"
       />
       <img
-        src="https://picsum.photos/id/1067/500/500"
-        alt="seen from the sky of a big city"
+        src="./ContactMe.jpg"
+        alt="Contact me"
       />
       <img
-        src="https://picsum.photos/id/122/500/500"
-        alt="a bridge in the night"
+        src="./About.jpg"
+        alt="About me"
       />
     </div>
   );

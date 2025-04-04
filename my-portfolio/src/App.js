@@ -9,8 +9,10 @@ function App() {
     <div className="App">
       <BackgroundVideo/>
       <Header/>
-      <PatternLinks/>
+      <div className="main-container">
       <Hero/>
+      <PatternLinks/>
+      </div>
     </div>
   );
 }

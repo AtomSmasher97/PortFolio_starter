@@ -1,7 +1,7 @@
 /* Gallery.css */
 
 .gallery {
-    --s: 200px; /* control the size */
+    --s: 150px; /* control the size */
     --g: 8px; /* control the gap */
   
     display: grid;
@@ -15,7 +15,7 @@
     cursor: pointer;
     filter: grayscale();
     z-index: 0;
-    transition: 0.25s, z-index 0s 0.25s;
+    transition: 0.15s, z-index 0s 0.15s;
   }
   
   .gallery > img:hover {

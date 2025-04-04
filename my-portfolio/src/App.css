@@ -36,3 +36,58 @@
     transform: rotate(360deg);
   }
 }
+/* Main container: Flexbox to hold Hero and PatternLinks side by side */
+.main-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  padding: 0 20px;
+}
+
+/* Hero section on the left */
+.hero {
+  flex: 1; /* Hero takes up half the space */
+  background: url('https://via.placeholder.com/1500x800') no-repeat center center/cover;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 100px 0;
+  height: 100%;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero-content p {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+.hero-content .btn {
+  padding: 10px 20px;
+  background-color: #00aaff2d;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.hero-content .btn:hover {
+  background-color: #0088cca5;
+}
+
+/* PatternLinks on the right */
+.pattern-container {
+  flex: 1; /* PatternLinks takes up half the space */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+

@@ -2,12 +2,15 @@
     background: url('https://via.placeholder.com/1500x800') no-repeat center center/cover;
     color: white;
     text-align: center;
+    align-items: center;
+    flex-direction: column;
     padding: 100px 0;
+    height: 100%;
 }
 
 .hero-content h1 {
     font-size: 3rem;
-    margin-bottom: 1rem;
+    margin-bottom: 1rem; 
 }
 
 .hero-content p {
@@ -17,13 +20,13 @@
 
 .hero-content .btn {
     padding: 10px 20px;
-    background-color: #00aaff;
+    background-color: #639cb8a0;
     color: white;
     text-decoration: none;
     font-weight: bold;
-    border-radius: 5px;
+    border-radius: 85px;
 }
 
 .hero-content .btn:hover {
-    background-color: #0088cc;
+    background-color: #0e4edbb6;
 }
