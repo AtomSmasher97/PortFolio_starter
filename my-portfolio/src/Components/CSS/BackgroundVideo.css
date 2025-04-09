@@ -6,6 +6,9 @@
     height: 100vh;
     object-fit: cover;
     z-index: -2;
+    filter: grayscale(50%);
+    filter: opacity(80%);
+    filter: brightness(0.9);
 }
 
 .content {
@@ -20,7 +23,7 @@
     left: 0;
     width: 100vw;
     height: 100vh;
-    backdrop-filter: blur(4px);  
+    backdrop-filter: blur(14px);  
     z-index: -1;
 }
 .grain-overlay {

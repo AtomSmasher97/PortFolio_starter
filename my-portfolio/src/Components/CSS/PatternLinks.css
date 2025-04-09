@@ -1,6 +1,6 @@
-/* Gallery.css */
-
+ 
 .gallery {
+  position: relative;
     --s: 150px; /* control the size */
     --g: 8px; /* control the gap */
   
@@ -12,7 +12,7 @@
   .gallery > img {
     width: 100%;
     aspect-ratio: 1;
-    cursor: pointer;
+    /* cursor: pointer; */
     filter: grayscale();
     z-index: 0;
     transition: 0.15s, z-index 0s 0.15s;
@@ -51,6 +51,9 @@
     min-height: 100vh;
     display: grid;
     place-content: center;
-    background: #a8dba8;
+    background:  #1d2628;
+    align-items: center;
+    transform: scale(0.9);
+    width: 100%;
   }
   

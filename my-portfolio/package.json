@@ -6,8 +6,10 @@
   "dependencies": {
     "cra-template": "1.2.0",
     "react": "^19.0.0",
+    "react-animated-cursor": "^2.11.2",
     "react-dom": "^19.0.0",
-    "react-scripts": "5.0.1"
+    "react-scripts": "5.0.1",
+    "typewriter-effect": "^2.21.0"
   },
   "scripts": {
     "start": "react-scripts start",

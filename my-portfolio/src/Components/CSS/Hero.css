@@ -8,10 +8,28 @@
     height: 100%;
 }
 
-.hero-content h1 {
-    font-size: 3rem;
-    margin-bottom: 1rem; 
+.hero-content {
+    position: relative; /* Ensures relative positioning for children */
 }
+
+.hero-content h1 {
+    display: flex; /* Ensure it's inline for the cursor to appear next to the text */
+    position: relative; /* Set relative position for cursor positioning */
+}
+
+.Typewriter__wrapper {
+    font-size: 3rem; /* Adjust size for better visibility */
+    font-family: 'Roboto', sans-serif; /* Smooth font with modern look */
+    font-weight: 700; /* Bold text for emphasis */
+    letter-spacing: 2px; /* Slight spacing between letters */
+    line-height: 1.2; /* Adjust line height for a cleaner look */
+    text-transform: capitalize; /* Capitalize the first letter of each word */
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2); /* Soft text shadow for better contrast */
+    transition: all 0.3s ease-in-out; /* Smooth transition for text changes */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove padding */
+}
+ 
 
 .hero-content p {
     font-size: 1.25rem;
@@ -30,3 +48,10 @@
 .hero-content .btn:hover {
     background-color: #0e4edbb6;
 }
+/* 
+Cursor Blink Effect
+@keyframes blink {
+    50% {
+      opacity: 0;
+    }
+} */

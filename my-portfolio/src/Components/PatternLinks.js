@@ -10,6 +10,6 @@ const PatternLinks = () => {
       <img src={process.env.PUBLIC_URL + "/About.jpg"} alt="About me" />
     </div>
   );
-};
+};  
 
 export default PatternLinks;  
