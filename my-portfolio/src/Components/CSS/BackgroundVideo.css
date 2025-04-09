@@ -20,7 +20,7 @@
     left: 0;
     width: 100vw;
     height: 100vh;
-    backdrop-filter: blur(2px); /* Adjust as needed */
+    backdrop-filter: blur(4px);  
     z-index: -1;
 }
 .grain-overlay {
