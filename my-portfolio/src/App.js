@@ -22,7 +22,7 @@ function App() {
     border: '3px solid var(--cursor-color)'
   }}
 />
-      {/* <BackgroundVideo/> */}
+      <BackgroundVideo/>
       <Header/>
       <div className="main-container">
       <Hero/>

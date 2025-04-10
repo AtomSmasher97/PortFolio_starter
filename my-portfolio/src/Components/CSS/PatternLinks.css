@@ -14,7 +14,7 @@
     aspect-ratio: 1;
     /* cursor: pointer; */
     filter: grayscale();
-    z-index: 0;
+    z-index: 998;
     transition: 0.15s, z-index 0s 0.15s;
   }
   
@@ -53,7 +53,7 @@
     place-content: center;
     background:  #1d2628;
     align-items: center;
-    transform: scale(0.9);
-    width: 100%;
+    /* transform: scale(1);
+    width: 100%; */
   }
   
